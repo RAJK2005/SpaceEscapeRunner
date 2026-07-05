@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SpaceEscapeRunner",
+    "slug": "SpaceEscapeRunner",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.somu2002.SpaceEscapeRunner"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e72287f4-cca1-44b8-a9a7-185cbb2164d1"
+      }
+    },
+    "plugins": [
+      "expo-splash-screen"
+    ]
+  }
+}
